@@ -72,18 +72,43 @@ public class MayTinh_JAVA extends javax.swing.JFrame {
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton5.setText("log");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         jButton27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton27.setText("cosh");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton6.setText("1/x");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton28.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton28.setText("tanh");
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton28ActionPerformed(evt);
+            }
+        });
 
         jButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton7.setText("sinh");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
         jButton29.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton29.setText("6");
@@ -111,6 +136,11 @@ public class MayTinh_JAVA extends javax.swing.JFrame {
 
         jButton9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton9.setText("x^3");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
 
         jButton31.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton31.setText("9");
@@ -146,6 +176,11 @@ public class MayTinh_JAVA extends javax.swing.JFrame {
 
         jButton12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton12.setText("x^y");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
 
         jButton33.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton33.setText("/");
@@ -189,6 +224,11 @@ public class MayTinh_JAVA extends javax.swing.JFrame {
 
         jButton15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton15.setText("n!");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
 
         jButton16.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton16.setText("2");
@@ -208,6 +248,11 @@ public class MayTinh_JAVA extends javax.swing.JFrame {
 
         jButton18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton18.setText("x^2");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
         jButton19.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton19.setText("5");
@@ -235,6 +280,11 @@ public class MayTinh_JAVA extends javax.swing.JFrame {
 
         jButton22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton22.setText("+/-");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
 
         txtonhap.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         txtonhap.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
@@ -247,16 +297,36 @@ public class MayTinh_JAVA extends javax.swing.JFrame {
         RDOFF.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         RDOFF.setSelected(true);
         RDOFF.setText("OFF");
+        RDOFF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RDOFFActionPerformed(evt);
+            }
+        });
 
         RDON.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         RDON.setSelected(true);
         RDON.setText("ON");
+        RDON.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RDONActionPerformed(evt);
+            }
+        });
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setText("exp");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton2.setText("R");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setText("sin");
@@ -559,7 +629,7 @@ if (txtonhap.getText().length() > 0)
             
             txtonhap.setText("");
             
-            opr = "%";        // TODO add your handling code here:
+            opr = "%";        
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
@@ -610,6 +680,91 @@ if (txtonhap.getText().length() > 0)
        txtonhap.setText(txtonhap.getText() + t);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton24ActionPerformed
 
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        double t = Math.log(Double.parseDouble(txtonhap.getText()));
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        double t = Math.sinh(Double.parseDouble(txtonhap.getText()));
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);          // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        double t = Math.cosh(Double.parseDouble(txtonhap.getText()));
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);           // TODO add your handling code here:
+    }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        double t = Math.tanh(Double.parseDouble(txtonhap.getText()));
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);           // TODO add your handling code here:
+    }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        double t = 1/(Double.parseDouble(txtonhap.getText()));
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        num1 = Double.parseDouble(txtonhap.getText());
+        txtonhap.setText("");
+        opr = "x^y";        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        double t = Double.parseDouble(txtonhap.getText());
+        t = t * t * t;
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        double t = Double.parseDouble(String.valueOf(txtonhap.getText()));
+        t = t * (-1);
+        txtonhap.setText("");
+        txtonhap.setText(String.valueOf(t));        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        double t = Double.parseDouble(txtonhap.getText());
+        double fact = 1;
+        while(t!=0){
+            fact = fact * t;
+            t--;
+        }
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + fact);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+                // TODO add your handling code here:
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+         double t = Math.sqrt(Double.parseDouble(txtonhap.getText()));
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        double t = Math.exp(Double.parseDouble(txtonhap.getText()));
+        txtonhap.setText("");
+        txtonhap.setText(txtonhap.getText() + t);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void RDOFFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RDOFFActionPerformed
+        disable();        // TODO add your handling code here:
+    }//GEN-LAST:event_RDOFFActionPerformed
+
+    private void RDONActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RDONActionPerformed
+        enable();        // TODO add your handling code here:
+    }//GEN-LAST:event_RDONActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -638,10 +793,8 @@ if (txtonhap.getText().length() > 0)
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new MayTinh_JAVA().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new MayTinh_JAVA().setVisible(true);
         });
     }
 
